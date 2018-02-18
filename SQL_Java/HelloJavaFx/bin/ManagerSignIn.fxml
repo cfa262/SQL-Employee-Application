@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="399.0" prefWidth="349.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <TextField fx:id="managerIDField" layoutX="14.0" layoutY="58.0" />
+      <Text layoutX="14.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MangerID" />
+      <TextField fx:id="managerSSNField" layoutX="14.0" layoutY="161.0" />
+      <Text layoutX="14.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ManagerSSN" />
+      <Button fx:id="signInButton" layoutX="15.0" layoutY="250.0" mnemonicParsing="false" onAction="#signInToDB" text="Sign In" />
+      <TextField fx:id="managerStatusField" layoutX="111.0" layoutY="250.0" />
+   </children>
+</AnchorPane>

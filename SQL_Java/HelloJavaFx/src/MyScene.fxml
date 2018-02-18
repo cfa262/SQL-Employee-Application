@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="851.0" prefWidth="889.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <Button fx:id="addEmplButton" layoutX="23.0" layoutY="235.0" mnemonicParsing="false" onAction="#insertEmployee" prefHeight="39.0" prefWidth="151.0" text="Add Employee" />
+      <TextField fx:id="firstNameField" layoutX="20.0" layoutY="55.0" prefHeight="39.0" prefWidth="124.0" />
+      <Text layoutX="21.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" />
+      <TextField fx:id="emplStatusField" layoutX="190.0" layoutY="235.0" prefHeight="39.0" prefWidth="181.0" />
+      <TextField fx:id="lastNameField" layoutX="224.0" layoutY="56.0" prefHeight="39.0" prefWidth="124.0" />
+      <Text layoutX="227.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" />
+      <TextField fx:id="mInitField" layoutX="154.0" layoutY="55.0" prefHeight="39.0" prefWidth="55.0" />
+      <Text layoutX="156.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M Init." />
+      <TextField fx:id="ssnField" layoutX="367.0" layoutY="55.0" prefHeight="39.0" prefWidth="124.0" />
+      <TextField fx:id="bdateField" layoutX="505.0" layoutY="56.0" prefHeight="39.0" prefWidth="153.0" />
+      <Text layoutX="367.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ssn" />
+      <Text layoutX="508.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthdate" />
+      <TextField fx:id="addressField" layoutX="678.0" layoutY="56.0" prefHeight="39.0" prefWidth="191.0" />
+      <Text layoutX="678.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+      <TextField fx:id="sexField" layoutX="20.0" layoutY="150.0" prefHeight="39.0" prefWidth="50.0" />
+      <TextField fx:id="salaryField" layoutX="92.0" layoutY="150.0" prefHeight="39.0" prefWidth="124.0" />
+      <TextField fx:id="superssnField" layoutX="239.0" layoutY="150.0" prefHeight="39.0" prefWidth="153.0" />
+      <Text layoutX="21.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sex" />
+      <Text layoutX="92.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salary" />
+      <Text layoutX="239.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Super Ssn" />
+      <TextField fx:id="dnoField" layoutX="413.0" layoutY="150.0" prefHeight="39.0" prefWidth="106.0" />
+      <Text layoutX="412.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Department #" />
+      <TextField fx:id="emailField" layoutX="544.0" layoutY="150.0" prefHeight="39.0" prefWidth="322.0" />
+      <Text layoutX="545.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail" />
+      <TextField fx:id="projectField" layoutX="32.0" layoutY="406.0" prefHeight="39.0" prefWidth="151.0" />
+      <Text layoutX="33.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project" />
+      <TextField fx:id="hoursField" layoutX="208.0" layoutY="406.0" prefHeight="39.0" prefWidth="181.0" />
+      <Text layoutX="207.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hours" />
+      <Button fx:id="addProjectButton" layoutX="34.0" layoutY="480.0" mnemonicParsing="false" onAction="#insertProject" prefHeight="39.0" prefWidth="151.0" text="Add Project" />
+      <TextField fx:id="projectStatusField" layoutX="207.0" layoutY="482.0" prefHeight="39.0" prefWidth="181.0" />
+      <Text layoutX="190.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" />
+      <Text layoutX="206.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" />
+      <CheckBox fx:id="yesCheckBox" layoutX="445.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleYesBox" text="Yes" />
+      <Text layoutX="445.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dependents?" />
+      <Button fx:id="printReportButton" layoutX="665.0" layoutY="586.0" mnemonicParsing="false" onAction="#printReport" text="Print Report" />
+      <Text layoutX="666.0" layoutY="580.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Done?" />
+      <TextField fx:id="dFirstNameField" layoutX="445.0" layoutY="330.0" prefHeight="39.0" prefWidth="120.0" />
+      <Text layoutX="445.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" />
+      <TextField fx:id="essnField" layoutX="585.0" layoutY="330.0" prefHeight="39.0" prefWidth="140.0" />
+      <Text layoutX="585.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Essn" />
+      <TextField fx:id="dSexField" layoutX="744.0" layoutY="330.0" prefHeight="39.0" prefWidth="55.0" />
+      <Text layoutX="743.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sex" />
+      <TextField fx:id="relationshipField" layoutX="445.0" layoutY="406.0" prefHeight="39.0" prefWidth="153.0" />
+      <Text layoutX="445.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Relationship" />
+      <Text layoutX="445.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dependent" />
+      <TextField fx:id="dbdateField" layoutX="632.0" layoutY="406.0" prefHeight="39.0" prefWidth="224.0" />
+      <Text layoutX="630.0" layoutY="398.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthdate" />
+      <Button fx:id="addDependentButton" layoutX="445.0" layoutY="480.0" mnemonicParsing="false" onAction="#insertDependent" prefHeight="39.0" prefWidth="191.0" text="Add Dependent" />
+      <TextField fx:id="dStatusField" layoutX="661.0" layoutY="480.0" prefHeight="39.0" prefWidth="191.0" />
+      <Text layoutX="659.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" />
+      <CheckBox fx:id="noCheckBox" layoutX="565.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleNoBox" text="No" />
+   </children>
+</AnchorPane>
